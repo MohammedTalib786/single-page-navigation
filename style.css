@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(175, 175, 175);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red
+}
+
+body{
+    /* background-color: black; */
+}
+
+
+
+.nav{
+    background-color: orange;
+    width: 97%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    position: fixed;
+    top: 0px;
+
+
+
+
+    transition: .5s;
+
+}
+
+.nav a{
+    font-family: Josefin Sans;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+
+.nav a:nth-child(2), .nav a:nth-child(3){
+    padding-left: 3%;
+
+}
+
+
+.cont-one{
+    width: 100%;
+    height: 100vh;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.cont-two{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.cont-three{
+    width: 100%;
+    height: 100vh;
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+
+}
